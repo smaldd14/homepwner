@@ -33,7 +33,7 @@ class ItemStore {
         //Remove item from array
         allItems.remove(at: fromIndex)
         
-        //Insert item in array at new location
+        //Insert item in array at new locations
         allItems.insert(movedItem, at: toIndex)
     }
     

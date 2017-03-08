@@ -99,7 +99,7 @@ class ItemsViewController: UITableViewController {
             })
             ac.addAction(deleteAction)
             
-            //Present the alert controller
+            //Present the alert controllers
             present(ac, animated: true, completion: nil)
             
             
